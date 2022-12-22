@@ -8,7 +8,7 @@ weight: 10
 
 Kubernetesはコンテナを _Node_ 上で実行されるPodに配置することで、ワークロードを実行します。
 ノードはクラスターによりますが、1つのVMまたは物理的なマシンです。
-各ノードは{{< glossary_tooltip text="Pod" term_id="pod" >}}やそれを制御する{{< glossary_tooltip text="コントロールプレーン" term_id="control-plane" >}}を実行するのに必要なサービスを含んでいます。
+各ノードは、{{< glossary_tooltip text="コントロールプレーン" term_id="control-plane" >}}に管理されるもので、{{< glossary_tooltip text="Pod" term_id="pod" >}} を実行するのに必要なサービスを含みます。
 
 通常、1つのクラスターで複数のノードを持ちます。学習用途やリソースの制限がある環境では、1ノードかもしれません。
 
